@@ -1,1 +1,3 @@
 # SWE
+
+SWE github exercise
