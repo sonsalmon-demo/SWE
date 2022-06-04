@@ -24,6 +24,7 @@ pipeline {
     post {
         always {
             echo 'job done'
+            echo 'commit change!!'
         }
         
     }
