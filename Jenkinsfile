@@ -1,6 +1,7 @@
 pipeline {
     agent {
-        node('demoAgent') {
+        node {
+            label 'demoAgent'
     // some block
         }
     }
