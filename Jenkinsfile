@@ -1,5 +1,9 @@
 pipeline {
-    agent any
+    agent {
+        node('demoAgent') {
+    // some block
+        }
+    }
     tools {
         maven 'maven'
     }
