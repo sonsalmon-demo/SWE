@@ -1,9 +1,6 @@
 pipeline {
     agent {
-        node {
-            label 'demoAgent'
-    // some block
-        }
+        label "demoAgent"
     }
     tools {
         maven 'maven'
